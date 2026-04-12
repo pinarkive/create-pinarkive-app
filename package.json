@@ -1,10 +1,10 @@
 {
   "name": "create-pinarkive-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI to scaffold official PinArkive starter templates (Next.js, Vite, or Cloudflare Workers).",
   "type": "module",
   "bin": {
-    "create-pinarkive-app": "./index.js"
+    "create-pinarkive-app": "index.js"
   },
   "files": [
     "index.js",
@@ -29,7 +29,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pinarkive/create-pinarkive-app.git"
+    "url": "git+https://github.com/pinarkive/create-pinarkive-app.git"
   },
   "engines": {
     "node": ">=18"
