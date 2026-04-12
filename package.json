@@ -1,0 +1,41 @@
+{
+  "name": "create-pinarkive-app",
+  "version": "0.1.0",
+  "description": "CLI to scaffold official PinArkive starter templates (Next.js, Vite, or Cloudflare Workers).",
+  "type": "module",
+  "bin": {
+    "create-pinarkive-app": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "RELEASE-CHECKLIST.md"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "pinarkive",
+    "ipfs",
+    "cli",
+    "create-app",
+    "starter",
+    "scaffold"
+  ],
+  "author": "PinArkive",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinarkive/create-pinarkive-app.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "degit": "^2.8.4",
+    "prompts": "^2.4.2"
+  }
+}
