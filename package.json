@@ -1,6 +1,6 @@
 {
   "name": "create-pinarkive-app",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "CLI to scaffold official PinArkive starter templates (Next.js, Vite, or Cloudflare Workers).",
   "type": "module",
   "bin": {
