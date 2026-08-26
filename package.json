@@ -35,7 +35,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "degit": "^2.8.4",
+    "degit": "^3.8.0",
     "prompts": "^2.4.2"
   }
 }
